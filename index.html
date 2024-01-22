@@ -29,8 +29,27 @@
     <!-- google font manrope -->
 
 
+
+    <!-- tailwind css customize -->
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#da373d',
+                figma:rgba(19, 19, 24, 0.60),
+              }
+            }
+          }
+        }
+      </script>
+    <!-- tailwind css customize -->
+
+
+    
     <!-- custom css -->
     <style>
+
         .font-manrope{
             font-family: 'Manrope', sans-serif;
         }
@@ -40,12 +59,9 @@
 
 </head>
 <body>
-    <header>
-
-    </header>
-    
-    <header class="container mx-auto px-4">
     <!-- header section --> 
+    <header class="container mx-auto px-4">
+    
     <div class="carousel w-full lg:h-[500px] mt-14 ">
         <div id="slide1" class="carousel-item relative w-full">
           <img src="Images/1.png" class="w-full bg-[cover]"/>
@@ -67,29 +83,87 @@
             <a href="#slide2" class="btn btn-circle">❮</a> 
             <a href="#slide1" class="btn btn-circle">❯</a>
           </div>
-        <!-- </div> 
-        <div id="slide4" class="carousel-item relative w-full">
-          <img src="https://daisyui.com/images/stock/photo-1665553365602-b2fb8e5d1707.jpg" class="w-full" />
-          <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-            <a href="#slide3" class="btn btn-circle">❮</a> 
-            <a href="#slide1" class="btn btn-circle">❯</a>
-          </div> -->
         </div>
       </div>  
-        <div class="sm:mt-4 lg:-mt-60 border-dotted border-zinc-400 border-b-2 pb-16 lg:pb-28">
+
+      <!-- header 2nd box -->
+        <div class="sm:mt-8 lg:-mt-60 border-dotted border-zinc-400 border-b-2 pb-16 lg:pb-28">
             <div class="bg-black text-white p-4 lg:w-5/12 rounded-2xl lg:-mt-40 relative lg:left-[680px]">
                 <h3 class="font-bold text-2xl w-[500px]">Meet all the heroes from the field</h3>
-                <p class="w-[500px] mt-4 text-zinc-400">Growing up, I spent most of my time playing sports and trying to stay active as much as possible. As I got older, I became more serious with field hockey, and I was determined to make the varsity team my junior year of high school.</p>
+                <p class="w-[500px] mt-4 text-slate-400">Growing up, I spent most of my time playing sports and trying to stay active as much as possible. As I got older, I became more serious with field hockey, and I was determined to make the varsity team my junior year of high school.</p>
             </div>
         </div> 
       
     <!-- header section -->
     </header>
     
-    <main>
-        <!-- header section -->
-        
-        <!-- header section -->
+    <main class="container mx-auto px-4">
+        <!-- professional section -->
+        <section>
+            <!-- professional title -->
+            <div class="border-dotted border-zinc-400 border-b-2 pb-10">
+                <div>
+                    <div class="mt-10 mx-auto border-dotted border-zinc-400 border-b-2 pb-10">
+                        <h2 class="font-extrabold text-3xl text-black text-center mb-4">Professional Hockeys Club</h2>
+                        <div class="flex justify-center">
+                            <p class="w-6/12 text-center text-slate-400">Professional hockey developed in the United States and Canada around the turn of the 20th century. Houghton, Michigan, was formally considered the "birthplace of professional hockey"</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- frofessional title -->
+                
+                <!-- frofessional box -->
+                <div class="mt-14 px-10">
+                    <div class="grid grid-cols-1 lg:grid-cols-4 gap-7">
+                        <!-- frofessional box one -->
+                        <div>
+                            <div class=" flex justify-center mb-5">
+                                <div class="radial-progress text-primary text-[#FF4240]" style="--value:70;" role="progressbar">70%</div>
+                            </div>
+                            <div class="text-center">
+                                <h3 class="text-xl font-bold text-black mb-4">Prayer Facility</h3>
+                                <p class="text-slate-400">There are separate prayer facilities for respected Muslim men and women</p>
+                            </div>
+                        </div>
+
+                        <!-- frofessional box two -->
+                        <div>
+                            <div class=" flex justify-center mb-5">
+                                <div class="radial-progress text-primary text-[#49D293]" style="--value:70;" role="progressbar">70%</div>
+                            </div>
+                            <div class="text-center">
+                                <h3 class="text-xl font-bold text-black mb-4">Prayer Facility</h3>
+                                <p class="text-slate-400">There are separate prayer facilities for respected Muslim men and women</p>
+                            </div>
+                        </div>
+
+                        <!-- frofessional box three -->
+                        <div>
+                            <div class=" flex justify-center mb-5">
+                                <div class="radial-progress text-primary text-[#FFB546]" style="--value:70;" role="progressbar">70%</div>
+                            </div>
+                            <div class="text-center">
+                                <h3 class="text-xl font-bold text-black mb-4">Prayer Facility</h3>
+                                <p class="text-slate-400">There are separate prayer facilities for respected Muslim men and women</p>
+                            </div>
+                        </div>
+
+                        <!-- frofessional box four -->
+                        <div>
+                            <div class=" flex justify-center mb-5">
+                                <div class="radial-progress text-primary text-[#4C8DF1]" style="--value:70;" role="progressbar">70%</div>
+                            </div>
+                            <div class="text-center">
+                                <h3 class="text-xl font-bold text-black mb-4">Prayer Facility</h3>
+                                <p class="text-slate-400">There are separate prayer facilities for respected Muslim men and women</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <!-- professional section -->
 
 
     </main>
